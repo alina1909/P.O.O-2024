@@ -60,10 +60,10 @@ public double getvanzari(){
 public String toString() {
     StringBuffer str = new StringBuffer();
     str.append("Nume: ").append(getnume());
-    str.append(" | Pret vanzare: ").append(getpret());
+    str.append("  Pret vanzare:").append(getpret());
 
     if(stoc_suf(stoc)) {
-        str.append(" | Stocul ramas: ").append(getstoc());
+        str.append("  Stocul ramas:").append(getstoc());
 
     }
 
