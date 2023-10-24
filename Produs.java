@@ -5,7 +5,7 @@ private String nume;
 private double pret;
 private double stoc;
 private double vanzari;
-public static final double ADD = 11;
+public static final double ADD = 5;
 
 public Produs(String nume, double pret,double stoc){
     this.nume=nume;
