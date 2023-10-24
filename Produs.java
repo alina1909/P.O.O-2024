@@ -27,6 +27,7 @@ public boolean stoc_suf(double stoc){
 }
 
 
+
 public String getnume(){
     return nume;
 }

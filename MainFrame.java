@@ -57,7 +57,7 @@ public class MainFrame extends JFrame {
                         afis = new Produs(n, p, s, v);
                     }
                     produse.add(afis);
-                    updateLista();
+                    afisareLista();
                 } catch (NumberFormatException ex) {
                     JOptionPane.showMessageDialog(MainFrame.this, "Valorile trebuie sa fie corecte.");
                 }
@@ -77,7 +77,7 @@ public class MainFrame extends JFrame {
                 // Clear lista de produse
                 produse.clear();
                 
-                updateLista();
+                afisareLista();
             }
         });
 
@@ -106,8 +106,8 @@ public class MainFrame extends JFrame {
         setVisible(true);
     }
 
-    //Realizam un update listei afisate
-    private void updateLista() {
+    //Realizam afisarea listei
+    private void afisareLista() {
         produseList.setListData(produse.toArray(new Produs[0]));
     }
 
