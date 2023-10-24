@@ -11,7 +11,6 @@ public Produs(String nume, double pret,double stoc){
     this.nume=nume;
     this.pret=pret + ADD;
     this.stoc=stoc;
-   // this.vanzari=vanzari;
 }
 
 public Produs(String nume,double pret,double stoc,double vanzari){
